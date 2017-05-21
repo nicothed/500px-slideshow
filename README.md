@@ -6,7 +6,7 @@ First, let me explicitly state that I don't know if this infringes 500px's terms
 1. In your browser, right-click on the bookmark bar, select "Add a Page..."
 2. Call it e.g. "500px slideshow"
 3. Paste this code:
-javascript:void(var interval=window.prompt("What interval would you like (in seconds)? (refresh the page to stop the slideshow)","7"); setInterval(function(){jQuery(".photo-focus__nav--right").first().trigger("click");}, interval*1000);)
+javascript:(function(){var interval=window.prompt("What interval would you like (in seconds)? (refresh the page to stop the slideshow)","7"); setInterval(function(){jQuery(".photo-focus__nav--right").first().trigger("click");}, interval*1000);})()
 4. Navigate to the desired 500px collection, click on an image
 5. Click on the bookmarket
 6. Go full screen
