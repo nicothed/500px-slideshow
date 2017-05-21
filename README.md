@@ -12,6 +12,4 @@ javascript:void(var interval=window.prompt("What interval would you like (in sec
 6. Go full screen
 7. Enjoy.
 
-You can modify the 6666 on item 3: it is the interval in milliseconds.
-
 Stop the slide show by closing your browser tab, or reloading the page.
